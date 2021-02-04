@@ -31,5 +31,6 @@ bgOverlay.addEventListener('click', closeModal);
 
 // Event Listener: Close modal on 'ESC' key press
 document.addEventListener('keyup', (event) => {
-    if (event.key === 'Escape') closeModal();
+    if (event.key === 'Escape' && !modalEl.classList.contains('hidden'))
+        closeModal();
 });
