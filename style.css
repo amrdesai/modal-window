@@ -30,7 +30,7 @@ body {
     );
 }
 
-/* Display modal */
+/* Display modal btn*/
 .show-modal {
     font-size: 2rem;
     font-weight: 600;
@@ -43,7 +43,7 @@ body {
     cursor: pointer;
 }
 
-/* Close modal button */
+/* Close modal btn */
 .close-modal {
     position: absolute;
     top: 1.2rem;
