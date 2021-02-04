@@ -12,19 +12,19 @@ const toggleModal = () => {
     bgOverlay.classList.toggle('hidden');
 };
 
-// Event Listener: Show Modal event listner
+// Event Listener: Show Modal event
 showModalBtns.forEach((currentItem) => {
     currentItem.addEventListener('click', toggleModal);
 });
 
-// Event Listener: Close modal btn
+// Event Listener: Close modal btn event
 closeModalBtn.addEventListener('click', toggleModal);
 
 // Event Listener: Close modal when clicked on overlay
 bgOverlay.addEventListener('click', toggleModal);
 
-// Event Listener: Close modal if 'ESC' key press
-document.addEventListener('keydown', (event) => {
+// Event Listener: Close modal on 'ESC' key press
+document.addEventListener('keyup', (event) => {
     if (event.key === 'Escape') {
         toggleModal();
     }
