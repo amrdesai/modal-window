@@ -4,3 +4,4 @@
 
 ## About 
 - Moddle Window toggle on click.
+- Upon clicking the button the modal window opens
